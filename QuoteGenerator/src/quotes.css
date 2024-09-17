@@ -1,0 +1,36 @@
+.container{
+    text-align: center;
+}
+
+.container h1{
+    font-size: 6rem;
+    margin-top: 5px;
+    color: darkslategrey;
+
+}
+.quoteBox{
+    display: block;
+    max-width: 50vw;
+    min-height: 15vh;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    margin: auto;
+    background-color: rgb(216, 216, 216);
+    padding: 1rem;
+}
+.btn{
+    border: 1px solid;
+    border-radius: 5rem;
+    background-color:  rgb(216, 216, 216);
+    color: darkslategrey;
+    margin: 50px;
+    padding: 15px  80px;
+}
+.btn:active {
+    background-color: darkslategrey;
+    color: white;
+    cursor: pointer;
+}
+.list{
+    list-style-type: none;
+}
